@@ -1,0 +1,541 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    min-width: 100%;
+    min-height: 100vh;
+
+}
+
+p,
+li {
+    font-family: "Trirong", serif;
+}
+
+
+.constrain {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+.top-bar {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    max-width: 100vw;
+}
+
+nav {
+    list-style-type: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+    color: #111235;
+    font-family: "Audiowide", sans-serif;
+}
+
+
+h1 {
+    font-size: 64px;
+    line-height: 75px;
+    margin: 15px 0;
+}
+
+
+h2 {
+    font-size: 32px;
+}
+
+
+h3 {
+    font-size: 48px;
+    line-height: 57.61px;
+    margin: 25px 5px;
+}
+
+
+.left-spacing-fix {
+    padding-left: 12px;
+}
+
+
+h4 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+h5 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding-left: 8px;
+}
+
+
+.content-section-container {
+    margin: 25px 15px 100px;
+}
+
+.section-image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.content-section-container img {
+    margin-top: 30px;
+}
+
+
+.gradient-background {
+    background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
+}
+
+
+p {
+    line-height: 24px;
+    padding: 0 8px;
+}
+
+
+#alexander-years-of-experience {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    text-decoration: none;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    border-radius: 50px;
+    margin: 30px auto;
+    font-weight: 600;
+    font-family: "Audiowide", sans-serif;
+}
+
+#contact-button {
+    letter-spacing: 1px;
+    font-family: "Trirong", serif;
+    font-size: 20px;
+
+}
+
+.btn-primary {
+    background-color: #4B5092;
+    color: white;
+    text-align: center;
+}
+
+
+.btn-secondary {
+    background-color: white;
+    text-align: center;
+    color: #436BAA;
+    font-size: 18px;
+}
+
+
+.blue-bg {
+    background-color: #F2F8FF;
+    padding: 40px 10px;
+    margin-bottom: 120px;
+    margin-top: 25px;
+}
+
+
+#content-section-container-alexander {
+    background-image: linear-gradient(#BAD4FF, #6487BF);
+    text-align: center;
+    margin-bottom: 120px;
+    padding-top: 80px;
+}
+
+
+.square {
+    margin: 20px 13px;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+
+.blue-square {
+    background-color: #E4F0FF;
+}
+
+
+.purple-square {
+    background-color: #727AEF1A
+}
+
+
+.square h5 {
+    width: 85%;
+}
+
+
+#footer {
+    border-top: 1px solid lightgrey;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #EEF5FF;
+}
+
+
+#footer h2 {
+    margin-bottom: 60px;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 30px 0;
+}
+
+
+#stay-up-to-date {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 55px;
+}
+
+
+#footer form {
+    margin-bottom: 30px;
+}
+
+
+input[type="email"] {
+    width: 65%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: url('https://assets.codepen.io/6060109/icon-send.png') white 95% 50% no-repeat;
+}
+
+
+input::placeholder {
+    color: #111235;
+}
+
+
+#icons-container {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icon-circle {
+    background: rgba(128, 173, 245, .2);
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon-circle>img {
+    width: 60%;
+}
+
+
+.copyrights-container {
+    background-color: #EEF5FF;
+    padding-bottom: 10px;
+}
+
+
+.copyright {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+/*--------- custom modifier section -----------*/
+
+.header-bold {
+    font-weight: 700;
+}
+
+.padding-bottom {
+    padding-bottom: 70px;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.border-line-bottom {
+    border-bottom: 1px solid gray;
+}
+
+/*----------------------------------------------*/
+
+
+.top-menu {
+    display: none;
+}
+
+
+.desktop-only {
+    display: none;
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .constrain {
+        max-width: 1500px;
+        min-width: 1120px;
+    }
+
+
+    .outside-container {
+        margin: 0 10%;
+    }
+
+
+    .top-bar {
+        box-shadow: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .top-menu {
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .hero-section {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+
+    .hero-section img {
+        width: 45%;
+    }
+
+
+    .hero-text {
+        width: 50%;
+    }
+
+
+    .hero-text .btn {
+        margin: 35px 0;
+    }
+
+
+    .left-to-right {
+        display: flex;
+    }
+
+
+    .workout-image-2 {
+        width: 55%;
+    }
+
+
+    .blue-bg {
+        width: 45%;
+        border-radius: 50px;
+        margin-right: 70px;
+    }
+
+
+    .content-section-container-full-width img {
+        margin-top: 50px;
+    }
+
+
+    #content-section-container-alexander {
+        padding-left: 80px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+
+    #content-section-container-alexander img {
+        margin-right: 100px;
+        width: 100%;
+    }
+
+
+    .buff-boy-text {
+        text-align: left;
+        width: 60%;
+        margin-left: 70px;
+    }
+
+
+    .buff-boy-text .btn {
+        margin: 35px 0;
+    }
+
+
+    .mobile-only {
+        display: none;
+    }
+
+
+    .desktop-only {
+        display: block;
+    }
+
+
+    .desktop-benefits-header {
+        display: flex;
+        justify-content: space-between;
+        /*This does nothing and I can't figure out why*/
+        margin-top: 50px;
+    }
+
+
+    .desktop-benefits-header h3 {
+        margin-right: 480px;
+    }
+
+
+    .desktop-benefits-header .btn {
+        max-height: 50px;
+    }
+
+
+    .panels-img-container {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 60px;
+    }
+
+
+    .panels-img-container img {
+        width: 30%;
+        max-height: 375px;
+        padding-top: 20px;
+    }
+
+
+    .panels-container {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+
+    .square {
+        width: 40%;
+        height: 40%;
+        box-sizing: border-box;
+    }
+
+
+    #icons-container {
+        display: none;
+    }
+
+    #footer {
+        display: flex;
+        padding-bottom: 0;
+        padding-left: 40px;
+        padding-right: 60px;
+    }
+
+
+    .footer-title {
+        width: 20%;
+        text-align: left;
+        margin-left: 55px;
+        margin-top: -10px;
+    }
+
+    #footer ul {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 150px;
+        margin-right: 100px;
+    }
+
+
+    #footer li {
+        margin-top: 0;
+    }
+
+
+    .stay-up-to-date-and-search-bar {
+        width: 25%;
+        text-align: left;
+    }
+
+
+    #footer .stay-up-to-date-and-search-bar p {
+        margin-top: 0;
+        font-family: inherit;
+    }
+
+    #footer .stay-up-to-date-and-search-bar input[type="email"] {
+        width: 100%;
+    }
+
+    input {
+        font-family: "Trirong", serif;
+        letter-spacing: 1px;
+    }
+
+    .copyright {
+        text-align: left;
+        margin-top: -25px;
+        margin-left: 80px;
+        margin-bottom: 60px;
+    }
+
+
+    .content-section-container-full-width {
+        padding: 0 80px;
+    }
+
+    .zach {
+        margin-top: -60px;
+        margin-left: 95px;
+    }
+
+}
